@@ -7,7 +7,7 @@ animals = ["cat", "dog"]
 bird = ["parrot", "sparrow"]
 animals.extend(bird)
 
-courses = ['History', 'chemistry','Math']
+courses = ['History', 'Chemistry','Math']
 #append list --- adding a single element to the end of the list
 courses.append('English')
 print(courses)
@@ -17,4 +17,8 @@ print(courses)
 
 #reverse list
 courses.reverse()
+print(courses)
+
+#sort lis
+courses.sort(reverse=True) #sort in descending order
 print(courses)
