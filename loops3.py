@@ -11,5 +11,11 @@ profile = {
 # The above code will give an error because the dictionary is not iterable in that way.
 # To iterate through the dictionary, we can use the items() method.
 
+#first way
 for key, value in profile.items():
-    print(key, ":", value) # This will print the key-value pairs in the dictionary. 
+   print(key, ":", value) # This will print the key-value pairs in the dictionary. 
+
+#second way
+'''for key in profile:
+    print(key, ":", profile[key])''' # This will print the key-value pairs in the dictionary.
+
