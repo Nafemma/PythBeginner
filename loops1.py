@@ -3,8 +3,8 @@
 #start: starting number of the sequence
 #stop: generate numbers up to, but not including this number
 #step: difference between each number in the sequence
-range(0, 10)
-print
+x = list(range(0, 10, 3)) #start at 0, stop before 10, step by 3
+print(x)
 #<---------------------------------------->
 #for loops
 #animals = ['cat', 'dog', 'monkey']
