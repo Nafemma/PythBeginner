@@ -1,4 +1,6 @@
 #a password retry program using a while loop
+# This program prompts the user to enter a password and allows a maximum of 3 attempts.
+
 maxAttempt = 3
 attempt = 0
 storedPassword = "secret123"
